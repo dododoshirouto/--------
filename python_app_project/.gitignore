@@ -1,12 +1,16 @@
+.vscode/
+*.lnk
+
+# python
+__pycache__/
 /venv
+
+## pyinstaller
+*.spec
 /build
 /dist
-# /_*
-*.lnk
-*.spec
-_Launch Cursor.bat
 
-# voicevox_core
+## voicevox_core
 /onnxruntime*
 /README.txt
 /VERSION
